@@ -1,0 +1,586 @@
+.sec222{
+        position: absolute;
+        height: 22.5rem !important;
+        width: 100%;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    
+}
+.ca3{
+    background-image: url(../imgs/HeroSec1.webp);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 22.5rem !important;
+}
+
+.ca4{
+    background-image: url(../imgs/HeroSec2.webp);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 22.5rem !important;
+}
+
+
+
+
+
+.productscont {
+    border-radius: 8px;
+    height: 400px;
+    width: 250px;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none; 
+}
+
+.product1 {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    overflow: hidden; 
+}
+
+.product1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/last1.webp); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out, background-image 0.3s ease-in-out;
+}
+
+.productscont:hover .product1::before {
+    background-image: url(../imgs/last11.webp); 
+    transform: scale(1.1); /* تكبير الصورة بنسبة 10% */
+}
+.product2{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    overflow: hidden; 
+}
+.product2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/h1.webp); /* الصورة الأساسية */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out, background-image 0.3s ease-in-out;
+}
+.productscont:hover .product2::before {
+    background-image: url(../imgs/h11.webp); /* الصورة الجديدة عند مرور الماوس */
+    transform: scale(1.1); /* تكبير الصورة بنسبة 10% */
+}
+.product3{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.product3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/h2.jpg); /* الصورة الأساسية */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out, background-image 0.3s ease-in-out;
+}
+
+.productscont:hover .product3::before {
+    background-image: url(../imgs/h22.jpg); /* الصورة الجديدة عند مرور الماوس */
+    transform: scale(105%); /* تكبير الصورة بنسبة 10% */
+}
+
+
+
+.product4{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.product4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+
+
+
+
+
+
+
+
+
+
+
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/h3.webp); /* الصورة الأساسية */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out, background-image 0.3s ease-in-out;
+}
+
+.productscont:hover .product4::before {
+    background-image: url(../imgs/h33.webp); /* الصورة الجديدة عند مرور الماوس */
+    transform: scale(105%); /* تكبير الصورة بنسبة 10% */
+}
+
+
+.product5{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.product5::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/h4.webp); /* الصورة الأساسية */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out, background-image 0.3s ease-in-out;
+}
+
+
+.productscont:hover .product5::before {
+    background-image: url(../imgs/h44.webp); /* الصورة الجديدة عند مرور الماوس */
+    transform: scale(105%); /* تكبير الصورة بنسبة 10% */
+}
+.product11{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.product11::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/n11.webp); /* الصورة الأساسية */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out, background-image 0.3s ease-in-out;
+}
+
+.productscont:hover .product11::before {
+    background-image: url(../imgs/n111.webp); /* الصورة الجديدة عند مرور الماوس */
+    transform: scale(105%); /* تكبير الصورة بنسبة 10% */
+}
+
+.row{
+    margin-right:5px;
+    margin-left: 5px
+}
+.devider-div2{
+    background-image: url(../imgs/pexels-photo-2jpeg.jpeg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.product6{
+    height: 500px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.product6::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/Most_popular/1.webp); /* الصورة الأساسية */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out, background-image 0.3s ease-in-out;
+}
+
+.productscont:hover .product6::before {
+    background-image: url(../imgs/Most_popular/2.webp); /* الصورة الجديدة عند مرور الماوس */
+    transform: scale(105%); /* تكبير الصورة بنسبة 10% */
+}
+.product7{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.product7::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/h2.jpg); /* الصورة الأساسية */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out, background-image 0.3s ease-in-out;
+}
+
+.productscont:hover .product7::before {
+    background-image: url(../imgs/h22.jpg); /* الصورة الجديدة عند مرور الماوس */
+    transform: scale(105%); /* تكبير الصورة بنسبة 10% */
+}
+.product7{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.product7::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/Most_popular/3.webp); /* الصورة الأساسية */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out, background-image 0.3s ease-in-out;
+}
+
+.productscont:hover .product7::before {
+    background-image: url(../imgs/Most_popular/4.jpg); /* الصورة الجديدة عند مرور الماوس */
+    transform: scale(105%); /* تكبير الصورة بنسبة 10% */
+}
+
+
+
+
+
+
+.product8{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.product8::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/Most_popular/5.webp); /* الصورة الأساسية */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out, background-image 0.3s ease-in-out;
+}
+
+.productscont:hover .product8::before {
+    background-image: url(../imgs/Most_popular/6.webp); /* الصورة الجديدة عند مرور الماوس */
+    transform: scale(105%); /* تكبير الصورة بنسبة 10% */
+}
+
+.product9{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.product9::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/Most_popular/7.webp); /* الصورة الأساسية */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out, background-image 0.3s ease-in-out;
+}
+.productscont:hover .product9::before {
+    background-image: url(../imgs/Most_popular/8.webp); /* الصورة الجديدة عند مرور الماوس */
+    transform: scale(105%); /* تكبير الصورة بنسبة 10% */
+}
+.product10{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.product10::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/Most_popular/9.webp); /* الصورة الأساسية */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out, background-image 0.3s ease-in-out;
+}
+
+
+.productscont:hover .product10::before {
+    background-image: url(../imgs/Most_popular/10.webp); /* الصورة الجديدة عند مرور الماوس */
+    transform: scale(105%); /* تكبير الصورة بنسبة 10% */
+}
+.shopNow{
+    padding: 10px 25px;
+    border-radius: 8px;
+    border: 1px solid #00525f;
+    background-color: transparent;
+    color: #015e6c;
+    transition: 0.2s ease-in-out;
+}
+.shopNow:hover{
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 25px;
+}
+.devider4{
+    background-image: url(../imgs/pexels-photo-3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+.product55{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.product55::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/North1.webp); /* الصورة الأساسية */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out, background-image 0.3s ease-in-out;
+}
+.productscont:hover .product55::before {
+    background-image: url(../imgs/North2.webp); /* الصورة الجديدة عند مرور الماوس */
+    transform: scale(105%); /* تكبير الصورة بنسبة 10% */
+}
+.product22{
+    height: 500px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.product22::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/Most-Purchesd/21.webp); /* الصورة الأساسية */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out, background-image 0.3s ease-in-out;
+}
+.productscont:hover .product22::before {
+    background-image: url(../imgs/Most-Purchesd/212.webp); /* الصورة الجديدة عند مرور الماوس */
+    transform: scale(105%); /* تكبير الصورة بنسبة 10% */
+}
+.product23{
+    height: 500px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.product23::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/Most-Purchesd/t1.webp); /* الصورة الأساسية */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out, background-image 0.3s ease-in-out;
+}
+.productscont:hover .product23::before {
+    background-image: url(../imgs/Most-Purchesd/t2.webp); /* الصورة الجديدة عند مرور الماوس */
+    transform: scale(105%); /* تكبير الصورة بنسبة 10% */
+}
+.product24{
+    height: 500px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.product24::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/Most-Purchesd/t3.webp); /* الصورة الأساسية */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out, background-image 0.3s ease-in-out;
+}
+
+.productscont:hover .product24::before {
+    background-image: url(../imgs/Most-Purchesd/t4.webp); /* الصورة الجديدة عند مرور الماوس */
+    transform: scale(105%); /* تكبير الصورة بنسبة 10% */
+}
+.product25{
+    height: 500px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.product25::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/Most-Purchesd/t6.webp); /* الصورة الأساسية */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out, background-image 0.3s ease-in-out;
+}
+.productscont:hover .product25::before {
+    background-image: url(../imgs/Most-Purchesd/t5.webp); /* الصورة الجديدة عند مرور الماوس */
+    transform: scale(105%); /* تكبير الصورة بنسبة 10% */
+}
+.product26{
+    height: 500px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.product26::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/Most-Purchesd/t7.webp); /* الصورة الأساسية */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out, background-image 0.3s ease-in-out;
+}
+
+.productscont:hover .product26::before {
+    background-image: url(../imgs/Most-Purchesd/t8.webp); /* الصورة الجديدة عند مرور الماوس */
+    transform: scale(105%); /* تكبير الصورة بنسبة 10% */
+}
+.product27{
+    height: 500px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.product27::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/Most-Purchesd/t9.webp); /* الصورة الأساسية */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out, background-image 0.3s ease-in-out;
+}
+.productscont:hover .product27::before {
+    background-image: url(../imgs/Most-Purchesd/t10.webp); /* الصورة الجديدة عند مرور الماوس */
+    transform: scale(105%); /* تكبير الصورة بنسبة 10% */
+}
+.last-chec{
+    background-image: url(../imgs/HeroSec1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer {
+    position: relative!important;
+    top: 0rem!important;
+}
+
+@media (max-width: 1400px) and (min-width: 768px) {
+    footer {
+        position: relative !important;
+        top: 0rem !important;
+    }
+}
+@media (max-width: 768px) {
+    footer {
+        position: relative  !important;
+        top: 0rem !important;
+    }
+}
+@media (min-width: 768px) {
+    .costom{
+        flex: 0 0 auto;
+        width: 18%;
+    }
+}
